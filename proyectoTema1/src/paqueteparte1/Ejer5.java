@@ -25,8 +25,10 @@ public class Ejer5 {
 
 		// OTRO MÉTODO SIN REDONDEAR DECIMALES
 
-		/* System.out.println("La longitud de la circunferencia es: " + longitud +
-		 * " y el área es: " + area); */
+		/*
+		 * System.out.println("La longitud de la circunferencia es: " + longitud +
+		 * " y el área es: " + area);
+		 */
 
 		sc.close();
 

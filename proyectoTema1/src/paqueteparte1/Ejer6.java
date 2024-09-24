@@ -25,9 +25,11 @@ public class Ejer6 {
 
 		System.out.println("La resta de " + num1 + " y " + num2 + " es: " + resta + "."); // RESULTADO OPERACION RESTA
 
-		System.out.println("El producto de " + num1 + " y " + num2 + " es: " + mult + "."); // RESULTADO OPERACION MULTIPLICACIÓN
-																							
-		System.out.println("La división de " + num1 + " entre " + num2 + " es: " + divis + "."); // RESULTADO OPERACION DIVISIÓN
+		System.out.println("El producto de " + num1 + " y " + num2 + " es: " + mult + "."); // RESULTADO OPERACION
+																							// MULTIPLICACIÓN
+
+		System.out.println("La división de " + num1 + " entre " + num2 + " es: " + divis + "."); // RESULTADO OPERACION
+																									// DIVISIÓN
 
 		sc.close();
 
