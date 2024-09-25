@@ -7,6 +7,8 @@ public class Ejer12 {
 		
 		int manz;
 		int peras;
+		
+		//DECLARAR CONSTANTES (final)
 		final double PRECIO_MANZ = 2.35;
 		final double PRECIO_PERAS = 1.95;
 		
