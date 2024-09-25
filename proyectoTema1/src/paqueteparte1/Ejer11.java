@@ -18,6 +18,7 @@ public class Ejer11 {
 		//ESTABLECER VARIABLE EUROS -> 1€ = 166 ptas.
 		double euros = ptas/166;
 		
+		//CONVERTIR VALOR VARIABLE EUROS A FORMATO CADENA 2 DECIMALES
 		System.out.printf( ptas + " pesetas son " + String.format("%.2f", euros) + " €.");
 		
 		sc.close();
