@@ -8,16 +8,20 @@ public class Ejer5 {
 
 		double radio;
 
-		Scanner sc = new Scanner(System.in); // CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		Scanner sc = new Scanner(System.in); 
 
-		System.out.println("Introduzca el radio de la circunferencia: "); // IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR
-																			// VALOR
+		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca el radio de la circunferencia: "); 
 
-		radio = sc.nextDouble(); // LEER NÚMERO TIPO DECIMAL (DOUBLE) INGRESADO EN CONSOLA
+		// LEER NÚMERO TIPO DECIMAL (DOUBLE) INGRESADO EN CONSOLA
+		radio = sc.nextDouble(); 
 
-		double longitud = (2 * Math.PI * radio); // FÓRMULA PARA CALCULAR LA LONGITUD DE CIRCUNFERENCIA
+		// FÓRMULA PARA CALCULAR LA LONGITUD DE CIRCUNFERENCIA
+		double longitud = (2 * Math.PI * radio); 
 
-		double area = Math.PI * Math.pow(radio, 2); // FÓRMULA PARA CALCULAR EL RADIO DE CIRCUNFERENCIA
+		// FÓRMULA PARA CALCULAR EL ÁREA DE CIRCUNFERENCIA
+		double area = Math.PI * Math.pow(radio, 2); 
 
 		System.out.printf("La longitud de la circunferencia es: %.2f\n", longitud); // REDONDEAR A 2 DECIMALES
 

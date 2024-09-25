@@ -8,28 +8,37 @@ public class Ejer6 {
 		int num1;
 		int num2;
 
-		Scanner sc = new Scanner(System.in); // CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		Scanner sc = new Scanner(System.in); 
 
-		System.out.println("Introduzca un número: "); // IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
-		num1 = sc.nextInt(); // LEER NÚMERO TIPO ENTERO (INT) INGRESADO EN CONSOLA
+		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca un número: "); 
+		
+		// LEER NÚMERO TIPO ENTERO (INT) INGRESADO EN CONSOLA
+		num1 = sc.nextInt(); 
 
-		System.out.println("Introduzca otro número: "); // IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
-		num2 = sc.nextInt(); // LEER OTRO NÚMERO TIPO INT (ENTERO) INGRESADO EN CONSOLA
+		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca otro número: "); 
+		
+		// LEER OTRO NÚMERO TIPO INT (ENTERO) INGRESADO EN CONSOLA
+		num2 = sc.nextInt(); 
 
 		int suma = num1 + num2;
 		int resta = num1 - num2;
 		int mult = num1 * num2;
 		int divis = num1 / num2;
 
-		System.out.println("La suma de " + num1 + " y " + num2 + " es: " + suma + "."); // RESULTADO OPERACION SUMA
+		// RESULTADO OPERACION SUMA
+		System.out.println("La suma de " + num1 + " y " + num2 + " es: " + suma + "."); 
 
-		System.out.println("La resta de " + num1 + " y " + num2 + " es: " + resta + "."); // RESULTADO OPERACION RESTA
+		// RESULTADO OPERACION RESTA
+		System.out.println("La resta de " + num1 + " y " + num2 + " es: " + resta + "."); 
 
-		System.out.println("El producto de " + num1 + " y " + num2 + " es: " + mult + "."); // RESULTADO OPERACION
-																							// MULTIPLICACIÓN
+		// RESULTADO OPERACION MULTIPLICACIÓN
+		System.out.println("El producto de " + num1 + " y " + num2 + " es: " + mult + "."); 
 
-		System.out.println("La división de " + num1 + " entre " + num2 + " es: " + divis + "."); // RESULTADO OPERACION
-																									// DIVISIÓN
+		// RESULTADO OPERACION DIVISIÓN
+		System.out.println("La división de " + num1 + " entre " + num2 + " es: " + divis + "."); 
 
 		sc.close();
 

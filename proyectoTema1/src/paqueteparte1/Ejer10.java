@@ -7,14 +7,19 @@ public class Ejer10 {
 
 		int num;
 
-		Scanner sc = new Scanner(System.in); // CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		Scanner sc = new Scanner(System.in); 
 
-		System.out.println("Introduzca un número: "); // IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
-		num = sc.nextInt(); // LEER NÚMERO TIPO ENTERO (INT) INGRESADO EN CONSOLA
+		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca un número: "); 
+		
+		// LEER NÚMERO TIPO ENTERO (INT) INGRESADO EN CONSOLA
+		num = sc.nextInt(); 
 
-		boolean par = num % 2 == 0; // DECLARAR VARIABLE TIPO 'BOOLEANO' -> VERIFICAR SI Nº ES PAR / IMPAR MEDIANTE
-									// OPERADOR (%) - residuo (usa operador igualdad - == -> comparar valores | !=
-									// -> operador desigualdad)
+		/* DECLARAR VARIABLE TIPO 'BOOLEANO' -> VERIFICAR SI Nº ES PAR / IMPAR MEDIANTE
+		 OPERADOR (%) - residuo (usa operador igualdad - == -> comparar valores | !=
+		-> operador desigualdad)*/
+		boolean par = num % 2 == 0; 
 
 		System.out.println(par);
 

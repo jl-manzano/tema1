@@ -9,17 +9,26 @@ public class Ejer7 {
 		String direc;
 		String telef;
 
-		Scanner sc = new Scanner(System.in); // CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		Scanner sc = new Scanner(System.in); 
 
-		System.out.println("Introduzca su nombre: "); // IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
-		nom = sc.nextLine(); // LEER MENSAJE CON NOMBRE (STRING) INGRESADO EN CONSOLA
+		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca su nombre: "); 
+		
+		// LEER MENSAJE CON NOMBRE (STRING) INGRESADO EN CONSOLA
+		nom = sc.nextLine(); 
 
-		System.out.println("Introduzca la dirección de su domicilio: "); // IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR
-																			// VALOR
-		direc = sc.nextLine(); // LEER MENSAJE CON DIRECCIÓN DOMICILIO (STRING) INGRESADO EN CONSOLAç
+		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca la dirección de su domicilio: "); 
+		
+		// LEER MENSAJE CON DIRECCIÓN DOMICILIO (STRING) INGRESADO EN CONSOLA
+		direc = sc.nextLine(); 
 
-		System.out.println("Introduzca su número de teléfono: "); // IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
-		telef = sc.nextLine(); // LEER MENSAJE CON Nº TELÉFONO (STRING) INGRESADO EN CONSOLA
+		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca su número de teléfono: "); 
+		
+		// LEER MENSAJE CON Nº TELÉFONO (STRING) INGRESADO EN CONSOLA
+		telef = sc.nextLine(); 
 
 		System.out.println("Nombre: " + nom);
 

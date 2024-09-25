@@ -7,15 +7,20 @@ public class Ejer4 {
 		double nota1;
 		double nota2;
 
-		Scanner sc = new Scanner(System.in); // CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		Scanner sc = new Scanner(System.in); 
 
-		System.out.println("Introduzca una nota: "); // IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca una nota: "); 
 
-		nota1 = sc.nextDouble(); // LEER Nº DECIMAL (DOUBLE) INGRESADO EN CONSOLA
+		// LEER Nº DECIMAL (DOUBLE) INGRESADO EN CONSOLA
+		nota1 = sc.nextDouble(); 
 
-		System.out.println("Introduzca otra nota: "); // IMPRIMIR OTRO MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		// IMPRIMIR OTRO MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca otra nota: "); 
 
-		nota2 = sc.nextDouble(); // LEER Nº DECIMAL (DOUBLE) INGRESADO EN CONSOLA
+		// LEER Nº DECIMAL (DOUBLE) INGRESADO EN CONSOLA
+		nota2 = sc.nextDouble(); 
 
 		double media_aritm = (nota1 + nota2) / 2;
 

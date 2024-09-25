@@ -8,13 +8,20 @@ public class Ejer8 {
 		String nom;
 		int edad;
 
-		Scanner sc = new Scanner(System.in); // CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		Scanner sc = new Scanner(System.in); 
 
-		System.out.println("Introduzca su nombre: "); // IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
-		nom = sc.nextLine(); // LEER MENSAJE CON NOMBRE (STRING) INGRESADO EN CONSOLA
+		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca su nombre: "); 
+		
+		// LEER MENSAJE CON NOMBRE (STRING) INGRESADO EN CONSOLA
+		nom = sc.nextLine(); 
 
-		System.out.println("Introduzca su edad: "); // IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
-		edad = sc.nextInt(); // LEER NÚMERO TIPO ENTERO (INT) INGRESADO EN CONSOLA
+		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca su edad: "); 
+		
+		// LEER NÚMERO TIPO ENTERO (INT) INGRESADO EN CONSOLA
+		edad = sc.nextInt(); 
 
 		System.out.println("Hola " + nom + ", tienes " + edad + " años, ¡qué mayor eres!");
 

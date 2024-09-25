@@ -7,10 +7,14 @@ public class Ejer2 {
 
 		int años;
 
-		Scanner sc = new Scanner(System.in); // CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		Scanner sc = new Scanner(System.in); 
 
-		System.out.println("Introduzca su edad: "); // IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
-		años = sc.nextInt(); // LEER Nº TIPO ENTERO (INT) INGRESADO EN CONSOLA
+		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca su edad: "); 
+		
+		// LEER Nº TIPO ENTERO (INT) INGRESADO EN CONSOLA
+		años = sc.nextInt(); 
 
 		System.out.println("El próximo año tendrás: " + ++años + " años");
 
