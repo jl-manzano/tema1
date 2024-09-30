@@ -1,7 +1,5 @@
 package paqueteparte2;
-
 import java.util.Scanner;
-
 public class Ejer4 {
 	public static void main(String[] args) {
 		double a;
@@ -11,24 +9,24 @@ public class Ejer4 {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("CÁLCULO POLINOMIO DE SEGUNDO GRADO: 'y=ax^2+bx+c");
+		System.out.println("CÁLCULO POLINOMIO DE SEGUNDO GRADO - 'y=ax^2+bx+c'");
 		
-		System.out.println("Introduzca un valor para 'a': ");
+		System.out.println("Introduce el valor para 'a': ");
 		a = sc.nextDouble();
 		
-		System.out.println("Introduzca un valor para 'b': ");
+		System.out.println("Introduce el valor para 'b': ");
 		b = sc.nextDouble();
 		
-		System.out.println("Introduzca un valor para 'c': ");
+		System.out.println("Introduce el valor para 'c': ");
 		c = sc.nextDouble();
 		
-		System.out.println("Introduzca un valor para 'x': ");
+		System.out.println("Introduce el valor para 'x': ");
 		x = sc.nextDouble();
 		
-		double y = a * Math.pow(x, 2) + b * x + c; 
-
-		System.out.println("y = " + y );
+		double result = a * Math.pow(x, 2) + b * x + c;
 		
+		System.out.println("y= " + result);
+	
 		sc.close();
 	}
 }
