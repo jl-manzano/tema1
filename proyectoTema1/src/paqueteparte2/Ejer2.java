@@ -27,11 +27,8 @@ public class Ejer2 {
 	
 	//IMPRIMIR RESULTADO PANTALLA
 	System.out.println("A " + num + " hay que sumarle " + result + " para que sea múltiplo de 7.");
-<<<<<<< HEAD
 
 	//CERRAR OBJETO SCANNER
-=======
->>>>>>> branch 'master' of https://github.com/jl-manzano/tema1.git
 	sc.close();
 	}
 }

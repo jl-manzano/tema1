@@ -34,11 +34,9 @@ public class Ejer3 {
 	
 	//IMPRIMIR RESULTADO PANTALLA
 	System.out.println("A " + num1 + " hay que sumarle " + result + " para que sea múltiplo de " + num2 + ".");
-<<<<<<< HEAD
 
 	//CERRAR OBJETO SCANNER
-=======
->>>>>>> branch 'master' of https://github.com/jl-manzano/tema1.git
 	sc.close();
+
 	}
 }
