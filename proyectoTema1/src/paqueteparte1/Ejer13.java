@@ -9,6 +9,7 @@ public class Ejer13 {
 		boolean llueve;
 		boolean tareaFin;
 		boolean irBiblioteca;
+		boolean salirCalle;
 
 		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
 		Scanner sc = new Scanner(System.in);
@@ -32,10 +33,12 @@ public class Ejer13 {
 		irBiblioteca = sc.nextBoolean();
 
 		// EVALUAR SI NO LLUEVE; CONDICIÓN - SI TAREAS REALIZADAS / SI VA A BIBLIOTECA
-		boolean salirCalle = (!llueve && tareaFin | irBiblioteca);
+		salirCalle = (!llueve && tareaFin | irBiblioteca);
 
+		//IMPRIMIR RESULTADO PANTALLA
 		System.out.println("¿Puedes salir a la calle? " + salirCalle);
 
+		//CERRAR OBJETO SCANNER	
 		sc.close();
 	}
 }

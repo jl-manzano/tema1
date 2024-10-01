@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejer8 {
 	public static void main(String[] args) {
 
+		// DECLARAR VARIABLES TIPO STRING Y ENTERO
 		String nom;
 		int edad;
 
@@ -23,8 +24,10 @@ public class Ejer8 {
 		// LEER NÚMERO TIPO ENTERO (INT) INGRESADO EN CONSOLA
 		edad = sc.nextInt(); 
 
+		//IMPRIMIR RESULTADO PANTALLA
 		System.out.println("Hola " + nom + ", tienes " + edad + " años, ¡qué mayor eres!");
 
+		//CERRAR OBJETO SCANNER
 		sc.close();
 
 	}

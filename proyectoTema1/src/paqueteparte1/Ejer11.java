@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 public class Ejer11 {
 	public static void main(String[] args) {
+		
+		//DECLARAR VARIABLE TIPO DECIMAL
 		double ptas;
+		double euros;
 		
 		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
 		Scanner sc = new Scanner(System.in);
@@ -16,11 +19,12 @@ public class Ejer11 {
 		ptas = sc.nextDouble();
 		
 		//ESTABLECER VARIABLE EUROS -> 1€ = 166 ptas.
-		double euros = ptas/166;
+		euros = ptas/166;
 		
-		//CONVERTIR VALOR VARIABLE EUROS A FORMATO CADENA 2 DECIMALES
+		//IMPRIMIR RESULTADO PANTALLA - CONVERTIR VALOR VARIABLE EUROS A FORMATO CADENA 2 DECIMALES
 		System.out.printf( ptas + " pesetas son " + String.format("%.2f", euros) + " €.");
 		
+		//CERRAR OBJETO SCANNER
 		sc.close();
 	}
 }

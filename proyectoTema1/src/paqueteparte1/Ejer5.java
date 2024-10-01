@@ -6,8 +6,11 @@ public class Ejer5 {
 
 	public static void main(String[] args) {
 
+		// DECLARAR VARIABLES TIPO DECIMAL
 		double radio;
-
+		double longitud;
+		double area;
+		
 		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
 		Scanner sc = new Scanner(System.in); 
 
@@ -18,13 +21,15 @@ public class Ejer5 {
 		radio = sc.nextDouble(); 
 
 		// FÓRMULA PARA CALCULAR LA LONGITUD DE CIRCUNFERENCIA
-		double longitud = (2 * Math.PI * radio); 
+		longitud = (2 * Math.PI * radio); 
 
 		// FÓRMULA PARA CALCULAR EL ÁREA DE CIRCUNFERENCIA
-		double area = Math.PI * Math.pow(radio, 2); 
+		area = Math.PI * Math.pow(radio, 2); 
 
+		//IMPRIMIR RESULTADO PANTALLA
 		System.out.printf("La longitud de la circunferencia es: %.2f\n", longitud); // REDONDEAR A 2 DECIMALES
 
+		//IMPRIMIR RESULTADO PANTALLA
 		System.out.printf("El área de la circunferencia es: %.2f\n", area); // REDONDEAR A 2 DECIMALES
 
 		// OTRO MÉTODO SIN REDONDEAR DECIMALES
@@ -34,6 +39,7 @@ public class Ejer5 {
 		 * " y el área es: " + area);
 		 */
 
+		//CERRAR OBJETO SCANNER
 		sc.close();
 
 	}

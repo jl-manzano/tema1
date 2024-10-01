@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejer7 {
 	public static void main(String[] args) {
 
+		// DECLARAR VARIABLES TIPO STRING
 		String nom;
 		String direc;
 		String telef;
@@ -30,12 +31,14 @@ public class Ejer7 {
 		// LEER MENSAJE CON Nº TELÉFONO (STRING) INGRESADO EN CONSOLA
 		telef = sc.nextLine(); 
 
+		//IMPRIMIR RESULTADOS PANTALLA
 		System.out.println("Nombre: " + nom);
 
 		System.out.println("Dirección: " + direc);
 
 		System.out.println("Teléfono: " + telef);
 
+		//CERRAR OBJETO SCANNER
 		sc.close();
 	}
 }

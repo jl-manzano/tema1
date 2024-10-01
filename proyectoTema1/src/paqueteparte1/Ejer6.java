@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejer6 {
 	public static void main(String[] args) {
 
+		// DECLARAR VARIABLES TIPO ENTERO
 		int num1;
 		int num2;
 
@@ -35,6 +36,7 @@ public class Ejer6 {
 		// RESULTADO OPERACION DIVISIÓN
 		System.out.println("La división de " + num1 + " entre " + num2 + " es: " + (double) num1 / num2 + ".");
 
+		//CERRAR OBJETO SCANNER
 		sc.close();
 
 	}

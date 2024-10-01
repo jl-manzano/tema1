@@ -4,9 +4,13 @@ import java.util.Scanner;
 
 public class Ejer14 {
 	public static void main(String[] args) {
+
+		// DECLARAR VARIABLES TIPO ENTERO Y DECIMAL
 		int nota1;
 		int nota2;
 		int nota3;
+		int notaMediaEntera;
+		double notaMediaDecimal;
 
 		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
 		Scanner sc = new Scanner(System.in);
@@ -29,15 +33,17 @@ public class Ejer14 {
 		// LEER OTRO NÚMERO TIPO ENTERO (INT) INGRESADO EN CONSOLA
 		nota3 = sc.nextInt();
 
-		double notaMediaDecimal = (nota1 + nota2 + nota3) / 3.0;
+		// DECLARAR VARIABLE -> CALC. NOTA MEDIA
+		notaMediaDecimal = (nota1 + nota2 + nota3) / 3.0;
 
-		/* CONVERTIR Nº DECIMAL (conversión explícita / 'CASTING') A Nº ENTERO Y ASIGNAR
-		A VARIABLE notaMediaEntera*/
-		int notaMediaEntera = (int) notaMediaDecimal;
+		/* CONVERTIR Nº DECIMAL (conversión explícita / 'CASTING') A Nº ENTERO Y ASIGNAR A VARIABLE notaMediaEntera */
+		notaMediaEntera = (int) notaMediaDecimal;
 
-		System.out.println("La nota media para el boletín (parte entera): " + (int) notaMediaEntera);
-		System.out.println("La nota media para el expediente (con decimales): " + notaMediaDecimal);
+		// IMPRIMIR RESULTADOS PANTALLA
+		System.out.println("La nota media para el boletín (parte entera): " + notaMediaEntera);
+		System.out.printf("La nota media para el expediente (con decimales): " + String.format("%.2f", notaMediaDecimal));
 
+		// CERRAR OBJETO SCANNER
 		sc.close();
 
 	}

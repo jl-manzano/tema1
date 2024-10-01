@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class Ejer12 {
 	public static void main(String[] args) {
 		
+		//DECLARAR VARIABLES TIPO ENTERO Y DECIMAL
 		int manz;
 		int peras;
+		double total;
 		
 		//DECLARAR CONSTANTES (final)
 		final double PRECIO_MANZ = 2.35;
@@ -27,10 +29,13 @@ public class Ejer12 {
 		// LEER OTRO NÚMERO TIPO DECIMAL (DOUBLE) INGRESADO EN CONSOLA
 		peras = sc.nextInt();
 		
-		double total = (manz * PRECIO_MANZ) + (peras * PRECIO_PERAS);
+		// DECLARAR VARIABLE TIPO DECIMAL -> CALC. TOTAL MANZ. Y PERAS
+		total = (manz * PRECIO_MANZ) + (peras * PRECIO_PERAS);
 		
+		//IMPRIMIR RESULTADO PANTALLA
 		System.out.println("Total: " + total + " €.");
 		
+		//CERRAR OBJETO SCANNER
 		sc.close();
 	}
 }

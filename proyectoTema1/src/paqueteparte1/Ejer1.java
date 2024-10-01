@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Ejer1 {
 	public static void main(String[] args) {
 
+		//DECLARAR VARIABLE TIPO DECIMAL
 		double numero;
 		
 		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
@@ -16,8 +17,10 @@ public class Ejer1 {
 		// LEER Nº DECIMAL (DOUBLE) INGRESADO EN CONSOLA
 		numero = sc.nextDouble();
 
+		//IMPRIMIR RESULTADO PANTALLA
 		System.out.println("El número introducido es: " + numero);
 
+		//CERRAR OBJETO SCANNER
 		sc.close();
 	}
 }

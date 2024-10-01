@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class Ejer10 {
 	public static void main(String[] args) {
 
+		// DECLARAR VARIABLE TIPO ENTERO Y 'BOOLEANO'
 		int num;
+		boolean par;
 
 		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
 		Scanner sc = new Scanner(System.in); 
@@ -19,10 +21,12 @@ public class Ejer10 {
 		/* DECLARAR VARIABLE TIPO 'BOOLEANO' -> VERIFICAR SI Nº ES PAR / IMPAR MEDIANTE
 		 OPERADOR (%) - residuo (usa operador igualdad - == -> comparar valores | !=
 		-> operador desigualdad)*/
-		boolean par = num % 2 == 0; 
+		par = num % 2 == 0; 
 
+		//IMPRIMIR RESULTADO PANTALLA
 		System.out.println(par);
 
+		//CERRAR OBJETO SCANNER
 		sc.close();
 	}
 }
