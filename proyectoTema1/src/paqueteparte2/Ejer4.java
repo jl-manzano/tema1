@@ -1,7 +1,5 @@
 package paqueteparte2;
-
 import java.util.Scanner;
-
 public class Ejer4 {
 	public static void main(String[] args) {
 		
@@ -28,14 +26,22 @@ public class Ejer4 {
 		
 		// LEER NÚMERO TIPO DECIMAL (DOUBLE) INGRESADO EN CONSOLA
 		b = sc.nextDouble();
+<<<<<<< HEAD
 
 		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+=======
+		
+>>>>>>> branch 'master' of https://github.com/jl-manzano/tema1.git
 		System.out.println("Introduce el valor para 'c': ");
 		
 		// LEER NÚMERO TIPO DECIMAL (DOUBLE) INGRESADO EN CONSOLA
 		c = sc.nextDouble();
+<<<<<<< HEAD
 
 		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
+=======
+		
+>>>>>>> branch 'master' of https://github.com/jl-manzano/tema1.git
 		System.out.println("Introduce el valor para 'x': ");
 
 		// LEER NÚMERO TIPO DECIMAL (DOUBLE) INGRESADO EN CONSOLA
