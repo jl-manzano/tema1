@@ -26,7 +26,7 @@ public class Ejer4 {
 		nota2 = sc.nextDouble(); 
 
 		// CALC. MEDIA ARITMÉTICA
-		media_aritm = (nota1 + nota2) / 2;
+		media_aritm = (double) (nota1 + nota2) / 2;
 
 		//IMPRIMIR RESULTADO PANTALLA
 		System.out.println("La media aritmética de las 2 notas es: " + media_aritm);
