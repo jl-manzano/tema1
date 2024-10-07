@@ -4,44 +4,46 @@ import java.util.Scanner;
 
 public class Ejer14 {
 	public static void main(String[] args) {
-
-		// DECLARAR VARIABLES TIPO ENTERO Y DECIMAL
+		
+		// DECLARAR VARIABLES TIPO ENTERO (INT)
 		int nota1;
 		int nota2;
 		int nota3;
 		int notaMediaEntera;
+		
+		// DECLARAR VARIABLE TIPO DECIMAL (DOUBLE)
 		double notaMediaDecimal;
-
-		// CREAR OBJETO SCANNER QUE PERMITE LEER ENTRADAS DATOS DESDE CONSOLA
+		
+		// CREAR OBJETO SCANNER
 		Scanner sc = new Scanner(System.in);
-
-		// IMPRIMIR MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
-		System.out.println("Introduzca la primera nota: ");
-
-		// LEER NÚMERO TIPO ENTERO (INT) INGRESADO EN CONSOLA
+		
+		// IMPRIMIR MENSAJE CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca la nota 1: ");
+		
+		// LEER Nº ENTERO (INT) INGRESADO EN CONSOLA
 		nota1 = sc.nextInt();
-
-		// IMPRIMIR OTRO MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
-		System.out.println("Introduzca la segunda nota: ");
-
-		// LEER OTRO NÚMERO TIPO ENTERO (INT) INGRESADO EN CONSOLA
+		
+		// IMPRIMIR OTRO MENSAJE CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca la nota 1: ");
+			
+		// LEER Nº ENTERO (INT) INGRESADO EN CONSOLA
 		nota2 = sc.nextInt();
-
-		// IMPRIMIR OTRO MENSAJE EN CONSOLA PARA INTRODUCIR VALOR
-		System.out.println("Introduzca la tercera nota: ");
-
-		// LEER OTRO NÚMERO TIPO ENTERO (INT) INGRESADO EN CONSOLA
+		
+		// IMPRIMIR OTRO MENSAJE CONSOLA PARA INTRODUCIR VALOR
+		System.out.println("Introduzca la nota 1: ");
+					
+		// LEER Nº ENTERO (INT) INGRESADO EN CONSOLA
 		nota3 = sc.nextInt();
+		
+		// DECLARAR VARIABLE -> CALC. NOTA MEDIA DECIMAL
+		notaMediaDecimal = (double) (nota1 + nota2 + nota3) / 3;
 
-		// DECLARAR VARIABLE -> CALC. NOTA MEDIA
-		notaMediaDecimal = (nota1 + nota2 + nota3) / 3.0;
-
-		/* CONVERTIR Nº DECIMAL (conversión explícita / 'CASTING') A Nº ENTERO Y ASIGNAR A VARIABLE notaMediaEntera */
+		// DECLARAR VARIABLE -> CAST. NOTA MEDIA DECIMAL -> OBTENER NOTA MEDIA ENTERA
 		notaMediaEntera = (int) notaMediaDecimal;
-
-		// IMPRIMIR RESULTADOS PANTALLA
-		System.out.println("La nota media para el boletín (parte entera): " + notaMediaEntera);
-		System.out.printf("La nota media para el expediente (con decimales): " + String.format("%.2f", notaMediaDecimal));
+		System.out.println("La media aritmética entera entre " + nota1 + " y " + nota2 + " es: " +  notaMediaEntera);
+	
+		// IMPRIMIR RESULTADO PANTALLA -> CÁLCULO MEDIA ARITMÉTICA (CAST)
+		System.out.println("La media aritmética decimal entre " + nota1 + " y " + nota2 + " es: " +  String.format("%.2f", notaMediaDecimal));
 
 		// CERRAR OBJETO SCANNER
 		sc.close();
