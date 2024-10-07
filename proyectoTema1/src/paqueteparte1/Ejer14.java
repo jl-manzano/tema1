@@ -35,14 +35,16 @@ public class Ejer14 {
 		// LEER Nº ENTERO (INT) INGRESADO EN CONSOLA
 		nota3 = sc.nextInt();
 		
-		// DECLARAR VARIABLE -> CALC. NOTA MEDIA DECIMAL
+		// DECLARAR VARIABLE -> (CAST) -> CALC. NOTA MEDIA CON DECIMALES
 		notaMediaDecimal = (double) (nota1 + nota2 + nota3) / 3;
 
 		// DECLARAR VARIABLE -> CAST. NOTA MEDIA DECIMAL -> OBTENER NOTA MEDIA ENTERA
 		notaMediaEntera = (int) notaMediaDecimal;
+		
+		// IMPRIMIR RESULTADO PANTALLA -> MEDIA ARITMÉTICA ENTERA
 		System.out.println("La media aritmética entera entre " + nota1 + " y " + nota2 + " es: " +  notaMediaEntera);
 	
-		// IMPRIMIR RESULTADO PANTALLA -> CÁLCULO MEDIA ARITMÉTICA (CAST)
+		// IMPRIMIR RESULTADO PANTALLA -> MEDIA ARITMÉTICA DECIMAL (REDONDEO A 2 DECIMALES)
 		System.out.println("La media aritmética decimal entre " + nota1 + " y " + nota2 + " es: " +  String.format("%.2f", notaMediaDecimal));
 
 		// CERRAR OBJETO SCANNER
